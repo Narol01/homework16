@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.topic{
+    width: 250px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 0 24px;
+    padding-top:15px;
+    padding-bottom: 29px;
+    position: relative;
+}
+
+.topic img{
+    width: 202px;
+    height: 135px;
+    padding-bottom: 12px;
+    object-fit: cover;
+}
+
+.topic .description{
+    font-family: Inter;
+    font-size: 14px;
+
+}
+
+.topic:hover {
+width: 433px;
+height: 304px;
+}
+
+.topic:hover img{
+    width: 379px;
+    height: 252px;
+    padding-bottom: 12px;
+    object-fit: cover;
+}
+.topic:hover .description{
+    font-family: Inter;
+    font-size: 0px;
+
+}
